@@ -2,7 +2,7 @@
 layout: page
 title: Concepts
 permalink: /concepts/
-nav_order: 2
+nav_order: 3
 ---
 
 # Concepts

@@ -2,7 +2,7 @@
 layout: page
 title: Libraries
 permalink: /libraries/
-nav_order: 3
+nav_order: 4
 ---
 
 # Libraries
