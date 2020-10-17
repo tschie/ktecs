@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 
 # Ktecs
@@ -53,10 +54,6 @@ with (myWorld) {
 }
 ```
 
-### Contributing
-
-Ktecs is meant to be extended by the community via libraries. Please consider [contributing](https://tschie.github.io/ktecs/Contributing.md).
-
 ### License
 
-Ktecs is open source under the [MIT license](https://tschie.github.io/ktecs/LICENSE).
+Ktecs is open source under the [MIT license](https://tschie.github.io/ktecs/blob/master/LICENSE).
