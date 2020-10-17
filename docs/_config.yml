@@ -1,8 +1,8 @@
 title: Ktecs
 email: tyler.schiewe@gmail.com
 description: Simple entity component system library for Kotlin
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "tschie.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ktecs" # the subpath of your site, e.g. /blog
+url: "https://tschie.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  tschie
 
 livereload: true

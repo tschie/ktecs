@@ -16,7 +16,7 @@ dependencies {
 }
 ```
 
-See the [Getting Started](/getting-started) page for platform-specific dependencies.
+See the [Getting Started](getting-started) page for platform-specific dependencies.
 
 ### Usage
 
