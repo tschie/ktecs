@@ -1,9 +1,9 @@
 package components
 
-import io.github.ktecs.ECS
-import io.github.ktecs.gl.components.Camera
-import io.github.ktecs.gl.math.Mat4f
-import io.github.ktecs.gl.math.perspective
+import io.github.tschie.ktecs.ECS
+import io.github.tschie.ktecs.gl.components.Camera
+import io.github.tschie.ktecs.gl.math.Mat4f
+import io.github.tschie.ktecs.gl.math.perspective
 import org.w3c.dom.HTMLCanvasElement
 import org.w3c.dom.MutationObserver
 import org.w3c.dom.MutationObserverInit

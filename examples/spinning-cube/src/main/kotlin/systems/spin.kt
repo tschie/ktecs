@@ -2,14 +2,14 @@ package systems
 
 import components.Spin
 import components.spin
-import io.github.ktecs.World
-import io.github.ktecs.and
-import io.github.ktecs.gl.components.Transform
-import io.github.ktecs.gl.components.transform
-import io.github.ktecs.gl.math.plus
-import io.github.ktecs.gl.math.rem
-import io.github.ktecs.gl.math.times
-import io.github.ktecs.has
+import io.github.tschie.ktecs.World
+import io.github.tschie.ktecs.and
+import io.github.tschie.ktecs.gl.components.Transform
+import io.github.tschie.ktecs.gl.components.transform
+import io.github.tschie.ktecs.gl.math.plus
+import io.github.tschie.ktecs.gl.math.rem
+import io.github.tschie.ktecs.gl.math.times
+import io.github.tschie.ktecs.has
 import kotlin.math.PI
 
 fun World.spin(delta: Double) {

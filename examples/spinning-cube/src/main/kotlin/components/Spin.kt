@@ -1,9 +1,9 @@
 package components
 
-import io.github.ktecs.Component
-import io.github.ktecs.ECS
-import io.github.ktecs.Entity
-import io.github.ktecs.gl.math.Vec3f
+import io.github.tschie.ktecs.Component
+import io.github.tschie.ktecs.ECS
+import io.github.tschie.ktecs.Entity
+import io.github.tschie.ktecs.gl.math.Vec3f
 
 data class Spin(val value: Vec3f = Vec3f())
 
