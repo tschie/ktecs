@@ -30,10 +30,6 @@ Special thanks to these organizations for their projects that influenced and mad
 - Jetbrains, for creating Kotlin
 - Mozilla Mixed Reality Team, for [ECSY](https://ecsy.io/) which Ktecs was inspired by
 
-## Contributing
-
-Ktecs is brand new and highly experimental at this point. As such, it is not yet open to external contributors. In the meantime, feel free to fork the repo, create libraries around it, or simply borrow the concepts in your own libraries if you think it has merit.
-
 ## License
 
 Ktecs is open source under the [MIT License](LICENSE).
