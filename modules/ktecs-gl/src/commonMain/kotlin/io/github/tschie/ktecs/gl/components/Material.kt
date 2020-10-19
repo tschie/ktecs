@@ -1,7 +1,7 @@
 package io.github.tschie.ktecs.gl.components
 
 import io.github.tschie.ktecs.Component
-import io.github.tschie.ktecs.ECS
+import io.github.tschie.ktecs.Ktecs
 import io.github.tschie.ktecs.Entity
 
 data class Material(
@@ -12,5 +12,5 @@ data class Material(
 /**
  * Entity's material component.
  */
-@ECS
+@Ktecs
 var Entity.material : Material? by Component()

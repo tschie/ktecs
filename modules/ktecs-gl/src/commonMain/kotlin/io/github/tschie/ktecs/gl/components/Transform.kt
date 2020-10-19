@@ -1,7 +1,7 @@
 package io.github.tschie.ktecs.gl.components
 
 import io.github.tschie.ktecs.Component
-import io.github.tschie.ktecs.ECS
+import io.github.tschie.ktecs.Ktecs
 import io.github.tschie.ktecs.Entity
 import io.github.tschie.ktecs.gl.math.Vec3f
 
@@ -14,5 +14,5 @@ data class Transform(
 /**
  * Entity's transform component.
  */
-@ECS
+@Ktecs
 var Entity.transform : Transform? by Component()
