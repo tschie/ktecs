@@ -1,8 +1,8 @@
 package io.github.tschie.ktecs.gl.components
 
-import io.github.tschie.ktecs.Component
-import io.github.tschie.ktecs.Ktecs
-import io.github.tschie.ktecs.Entity
+import io.github.tschie.ktecs.core.Component
+import io.github.tschie.ktecs.core.Ktecs
+import io.github.tschie.ktecs.core.Entity
 
 data class Mesh(val attributes: Map<String, Array<Array<Float>>>)
 

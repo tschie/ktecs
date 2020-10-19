@@ -1,4 +1,4 @@
-package io.github.tschie.ktecs
+package io.github.tschie.ktecs.core
 
 import kotlin.reflect.KClass
 

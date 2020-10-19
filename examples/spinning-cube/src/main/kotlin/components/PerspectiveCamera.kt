@@ -1,6 +1,6 @@
 package components
 
-import io.github.tschie.ktecs.Ktecs
+import io.github.tschie.ktecs.core.Ktecs
 import io.github.tschie.ktecs.gl.components.Camera
 import io.github.tschie.ktecs.gl.math.Mat4f
 import io.github.tschie.ktecs.gl.math.perspective

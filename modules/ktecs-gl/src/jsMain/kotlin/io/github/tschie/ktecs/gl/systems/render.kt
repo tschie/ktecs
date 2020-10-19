@@ -1,8 +1,8 @@
 package io.github.tschie.ktecs.gl.systems
 
-import io.github.tschie.ktecs.World
-import io.github.tschie.ktecs.and
-import io.github.tschie.ktecs.has
+import io.github.tschie.ktecs.core.World
+import io.github.tschie.ktecs.core.and
+import io.github.tschie.ktecs.core.has
 import io.github.tschie.ktecs.gl.components.*
 import io.github.tschie.ktecs.gl.math.*
 import org.khronos.webgl.Float32Array

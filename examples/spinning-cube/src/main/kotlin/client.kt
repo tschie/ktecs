@@ -6,14 +6,14 @@ import data.cubeData
 import data.fragmentShaderSource
 import data.randomColors
 import data.vertexShaderSource
-import io.github.tschie.ktecs.Entity
-import io.github.tschie.ktecs.World
-import io.github.tschie.ktecs.entity
+import io.github.tschie.ktecs.core.Entity
+import io.github.tschie.ktecs.core.World
+import io.github.tschie.ktecs.core.entity
+import io.github.tschie.ktecs.core.world
 import io.github.tschie.ktecs.gl.components.*
 import io.github.tschie.ktecs.gl.math.Vec3f
 import io.github.tschie.ktecs.gl.systems.WebGLRenderer
 import io.github.tschie.ktecs.gl.systems.render
-import io.github.tschie.ktecs.world
 import kotlinx.browser.document
 import kotlinx.browser.window
 import org.khronos.webgl.WebGLRenderingContext
@@ -37,7 +37,7 @@ fun main() {
 
   val gl = canvas.getContext("webgl") as WebGLRenderingContext? ?: throw Error("WebGL not supported!")
 
-  val sandbox = world {
+  sandbox = world {
     // camera
     entity {
       transform = Transform()
