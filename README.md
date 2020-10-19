@@ -1,8 +1,6 @@
 # Ktecs
 
-Ktecs ("k-tex") is an entity component system (ECS) library for Kotlin/JS.
-
-**Disclaimer:** Ktecs is experimental, and not yet ready for production.
+Ktecs ("k-tex") is an **experimental** entity component system (ECS) library for Kotlin/JS.
 
 ## Usage
 
