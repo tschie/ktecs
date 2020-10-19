@@ -1,6 +1,6 @@
 package components
 
-import io.github.tschie.ktecs.ECS
+import io.github.tschie.ktecs.Ktecs
 import io.github.tschie.ktecs.gl.components.Camera
 import io.github.tschie.ktecs.gl.math.Mat4f
 import io.github.tschie.ktecs.gl.math.perspective
@@ -11,7 +11,7 @@ import org.w3c.dom.MutationObserverInit
 /**
  * Adds a camera component to the entity with a perspective projection.
  */
-@ECS
+@Ktecs
 fun perspectiveCamera(aspect: Float = 1.0f, fov: Float = 70.0f, near: Float = 0.1f, far: Float = 1000.0f, init: Perspective.() -> Unit = {}) : Camera {
   val perspective = Perspective(aspect, fov, near, far)
   perspective.init()
@@ -21,7 +21,7 @@ fun perspectiveCamera(aspect: Float = 1.0f, fov: Float = 70.0f, near: Float = 0.
 /**
  * Configures a perspective's aspect ratio to the (possibly changing) dimensions of a canvas according to width / height.
  */
-@ECS
+@Ktecs
 fun Perspective.fitCanvas(canvas: HTMLCanvasElement) {
   this.aspect = canvas.width.toFloat() / canvas.height.toFloat()
   val observer = MutationObserver { _, _ ->
@@ -30,7 +30,7 @@ fun Perspective.fitCanvas(canvas: HTMLCanvasElement) {
   observer.observe(canvas, MutationObserverInit(attributes = true, attributeFilter = arrayOf("width", "height")))
 }
 
-@ECS
+@Ktecs
 class Perspective(aspect: Float, fov: Float, near: Float, far: Float) {
 
   var aspect = aspect
