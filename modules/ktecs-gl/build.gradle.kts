@@ -1,5 +1,6 @@
 plugins {
     kotlin("multiplatform") version "1.4.10"
+    id("org.jetbrains.dokka") version "1.4.10"
     id("maven-publish")
 }
 group = "io.github.tschie.ktecs"
@@ -7,6 +8,7 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    jcenter()
     mavenLocal()
 }
 kotlin {
