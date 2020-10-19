@@ -1,24 +1,12 @@
 ---
 layout: home
-title About
-nav_order: 1
 ---
 
 # Ktecs
 
 Ktecs ("k-tex") is an entity component system (ECS) multiplatform library for Kotlin. It aims to be lightweight, general-purpose, easy to use, and Kotlin-idiomatic.
 
-**Disclaimer:** Ktecs is brand new, completely experimental, and not ready for production use at this time.
-
-### Install
-
-```groovy
-dependencies {
-  implementation("io.github.ktecs:ktecs:1.0-SNAPSHOT")
-}
-```
-
-See the [Getting Started](getting-started) page for platform-specific dependencies.
+**Disclaimer:** Ktecs is experimental, and not yet ready for production use.
 
 ### Usage
 
