@@ -1,5 +1,7 @@
 ---
 layout: home
+title: About
+nav_order: 1
 ---
 
 # Ktecs
@@ -45,4 +47,4 @@ with (myWorld) {
 
 ### License
 
-Ktecs is open source under the [MIT license](https://tschie.github.io/ktecs/blob/master/LICENSE).
+Ktecs is open source under the [MIT license](https://github.com/tschie/ktecs/blob/master/LICENSE).
