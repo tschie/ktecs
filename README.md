@@ -2,6 +2,10 @@
 
 Ktecs ("k-tex") is an **experimental** entity component system (ECS) library for Kotlin/JS.
 
+## Install
+
+Currently GitHub Package Registry for Maven does not support Kotlin multiplatform artifacts. They can be uploaded but not retrieved. In the meantime, the best option is to clone the repo and install each module to Maven local using the `publishToMavenLocal` Gradle task.
+
 ## Usage
 
 ```kotlin
