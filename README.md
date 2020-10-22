@@ -27,6 +27,10 @@ with (myWorld) {
 
 For more information, see the [Wiki](https://github.com/tschie/ktecs/wiki).
 
+## Docs
+
+[Kdoc on GitHub Pages](https://tschie.github.io/ktecs/index.html)
+
 ## Credits
 
 Special thanks to these organizations for their projects that influenced and made this project possible. 
