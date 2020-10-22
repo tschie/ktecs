@@ -1,0 +1,9 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+io.github.tschie.ktecs.core
+io.github.tschie.ktecs.core.component
+io.github.tschie.ktecs.core.entity
+io.github.tschie.ktecs.core.query
+io.github.tschie.ktecs.core.world
+

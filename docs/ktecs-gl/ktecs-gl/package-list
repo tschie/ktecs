@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+io.github.tschie.ktecs.gl.components
+io.github.tschie.ktecs.gl.math
+io.github.tschie.ktecs.gl.systems
+
