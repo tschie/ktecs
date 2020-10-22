@@ -1,0 +1,10 @@
+import static groovy.io.FileType.DIRECTORIES
+
+rootProject.name = "modules"
+
+// include all Gradle projects two levels down
+file('./').traverse(type: DIRECTORIES, maxDepth: 1) { f ->
+    if(f.isDirectory() && new File(f, "build.gradle.kts").exists()) {
+        include f.name
+    }
+}
