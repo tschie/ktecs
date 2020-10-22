@@ -1,4 +1,7 @@
-package io.github.tschie.ktecs.core
+package io.github.tschie.ktecs.core.entity
+
+import io.github.tschie.ktecs.core.Ktecs
+import io.github.tschie.ktecs.core.world.World
 
 /**
  * A unique ID that can be associated with data. Entity's are unique in the [World] they exist in. Entities must be created from a world.

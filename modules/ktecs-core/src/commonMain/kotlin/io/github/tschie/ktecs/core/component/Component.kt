@@ -1,5 +1,6 @@
-package io.github.tschie.ktecs.core
+package io.github.tschie.ktecs.core.component
 
+import io.github.tschie.ktecs.core.entity.Entity
 import kotlin.reflect.KProperty
 
 /**

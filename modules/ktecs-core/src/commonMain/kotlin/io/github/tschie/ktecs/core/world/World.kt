@@ -1,5 +1,8 @@
-package io.github.tschie.ktecs.core
+package io.github.tschie.ktecs.core.world
 
+import io.github.tschie.ktecs.core.Ktecs
+import io.github.tschie.ktecs.core.entity.Entity
+import io.github.tschie.ktecs.core.query.*
 import kotlin.reflect.KClass
 
 /**
