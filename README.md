@@ -14,7 +14,7 @@ val myWorld = world {
   entity {
     // components
     transform = Transform(position = Vec3f(z = -10f))
-    spin = Spin(value = Vec3f(-0.01f, -0.01f, -0.01f))
+    spin = Spin(value = Vec3f(xyz = -0.01f))
   }
 }
 
