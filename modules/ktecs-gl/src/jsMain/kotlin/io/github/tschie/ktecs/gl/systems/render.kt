@@ -1,18 +1,20 @@
 package io.github.tschie.ktecs.gl.systems
 
-import io.github.tschie.ktecs.core.World
-import io.github.tschie.ktecs.core.and
-import io.github.tschie.ktecs.core.has
+import io.github.tschie.ktecs.core.query.and
+import io.github.tschie.ktecs.core.query.has
+import io.github.tschie.ktecs.core.world.World
 import io.github.tschie.ktecs.gl.components.*
 import io.github.tschie.ktecs.gl.math.*
 import org.khronos.webgl.Float32Array
 import org.khronos.webgl.WebGLBuffer
 import org.khronos.webgl.WebGLProgram
 import org.khronos.webgl.WebGLRenderingContext
-import kotlin.math.PI
 
 typealias Attribute = Map.Entry<String, Array<Array<Float>>>
 
+/**
+ * A renderer for keeping track of objects related to a WebGLRenderingContext.
+ */
 class WebGLRenderer(val gl: WebGLRenderingContext) {
   val materialPrograms = mutableMapOf<Material, WebGLProgram?>()
   val attributeBuffers = mutableMapOf<Attribute, WebGLBuffer?>()
@@ -22,8 +24,12 @@ class WebGLRenderer(val gl: WebGLRenderingContext) {
   }
 }
 
+// TODO: move inside WebGLRenderer when multiple receivers are supported
 /**
- * TODO: move inside WebGLRenderer when multiple receivers are supported
+ * Renders all renderable entities (having transform, mesh, and material components) using every camera entity (having transform and camera components) using the specified WebGL renderer.
+ *
+ * @receiver world to query entities on for rendering
+ * @param webGLRenderer WebGL Renderer with the WebGL context to use for rendering
  */
 fun World.render(webGLRenderer: WebGLRenderer) {
   // clear canvas
@@ -121,9 +127,9 @@ fun Transform.toMatrix() : Mat4f {
       Mat4.create() as Float32Array,
       Quat.fromEuler(
         Quat.create() as Float32Array,
-        (rotation.x * 180.0) / PI,
-        (rotation.y * 180.0) / PI,
-        (rotation.z * 180.0) / PI
+        rotation.x,
+        rotation.y,
+        rotation.z
       ) as Float32Array,
       position.toArray(),
       scale.toArray()
